@@ -10,7 +10,7 @@ public final class ApplicationGlobalState {
     private ApplicationGlobalState() {
     }
 
-    // Ќепотокобезопасный код дл€ упрощени€
+
     public static ApplicationGlobalState getInstance() {
         if(INSTANCE == null) {
             INSTANCE = new ApplicationGlobalState();
